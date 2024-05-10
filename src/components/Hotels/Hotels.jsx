@@ -13,8 +13,8 @@ function Hotels() {
       {hotels.map((item) => {
         return (
           <Link
-            to={`/hotels/${item.id}&lat=${item.latitude}&lng=${item.longitude}`}
             key={item.id}
+            to={`/hotels/${item.id}?lat=${item.latitude}&lng=${item.longitude}`}
           >
             <div className="searchItem">
               <img src={item.picture_url.url} alt={item.name} />

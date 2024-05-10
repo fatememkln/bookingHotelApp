@@ -14,7 +14,6 @@ function LocationList() {
     <div className="nearbyLocation">
       <h2>NearBy Location</h2>
       <div className="locationList">
-        {" "}
         {data.map((item) => {
           return (
             <div className="locationItem" key={item.id}>

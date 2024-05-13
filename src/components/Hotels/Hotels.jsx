@@ -21,7 +21,7 @@ function Hotels() {
                 item.id === currentHotel?.id ? "current-hotel" : ""
               }`}
             >
-              <img src={item.picture_url.url} alt={item.name} />
+              <img src={item.thumbnail_url} alt={item.name} />
               <div className="searchItemDesc">
                 <p className="location">{item.smart_location}</p>
                 <p className="name">{item.name}</p>

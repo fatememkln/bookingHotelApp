@@ -10,7 +10,7 @@ function SingleHotel() {
 
   useEffect(() => {
     getHotel(id);
-  }, [id]);
+  }, [id , getHotel]);
 
   if (isLoadingCurrHotel || !currentHotel) <Loader />;
   return (

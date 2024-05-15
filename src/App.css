@@ -272,6 +272,7 @@
 
 /* bookmark page */
 .bookmarkList {
+  display: grid;
   margin-top: 1rem;
 }
 .bookmarkItem {
@@ -279,9 +280,8 @@
   border: 1px solid var(--text-400);
   border-radius: 1rem;
   padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 20fr 40fr 40fr;
 }
 
 .bookmarkList .bookmarkItem.current-bookmark {

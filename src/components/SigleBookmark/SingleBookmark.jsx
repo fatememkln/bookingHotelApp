@@ -13,7 +13,7 @@ function SingleBookmark() {
     getBookmark(id);
   }, [id, getBookmark]);
 
-  if (isLoadingCurrBookmark || !currentBookmark) <Loader />;
+  if (isLoadingCurrBookmark || !currentBookmark) return <Loader />;
   return (
     <div>
       <button onClick={() => navigate(-1)} className="btn btn--back">

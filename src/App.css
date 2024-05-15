@@ -299,6 +299,14 @@
   height: 1.1rem;
 }
 
+.singleBookmark {
+  margin: 2rem;
+}
+
+.singleBookmark h2 {
+  margin-bottom: 1rem;
+}
+
 /* form */
 
 .form .formControl {
@@ -335,6 +343,7 @@
 
 .btn--back {
   border: 1px solid var(--text-400);
+  margin-bottom: 1rem;
 }
 
 .formControl .flag {

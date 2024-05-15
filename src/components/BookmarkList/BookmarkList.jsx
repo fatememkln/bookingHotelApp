@@ -19,7 +19,7 @@ function BookmarkList() {
             >
               <div
                 className={`bookmarkItem ${
-                  item.id === currentBookmark.id ? "current-bookmark" : ""
+                  item.id === currentBookmark?.id ? "current-bookmark" : ""
                 }`}
               >
                 <ReactCountryFlag svg countryCode="item.countryCode" />

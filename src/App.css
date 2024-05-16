@@ -326,6 +326,10 @@
   width: 100%;
 }
 
+.emptyBox {
+  border: 1px solid var(--rose-500);
+}
+
 .buttons {
   display: flex;
   align-items: center;

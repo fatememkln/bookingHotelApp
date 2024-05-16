@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 import { TrashIcon } from "@heroicons/react/16/solid";
 
 function BookmarkList() {
-  const { bookmarks, isLoading, currentBookmark } = useBookmark();
+  const { bookmarks, isLoading, currentBookmark, deleteBookmark } =
+    useBookmark();
+
+  const handledelete = async (e, id) => {
+    e.preventDefault();
+    await deleteBookmark(id);
+  };
 
   if (isLoading) return <Loader />;
   return (
@@ -28,7 +34,10 @@ function BookmarkList() {
                   <strong> {item.cityName} </strong>
                   <span>{item.country}</span>
                 </div>
-                <button className="trash">
+                <button
+                  onClick={(e) => handledelete(e, item.id)}
+                  className="trash"
+                >
                   <TrashIcon />
                 </button>
               </div>

@@ -21,7 +21,7 @@ function SingleBookmark() {
       </button>
       <div className="singleBookmark">
         <h2>{currentBookmark.cityName}</h2>
-        <div className="bookmarkItem">
+        <div>
           <ReactCountryFlag svg countryCode="currentBookmark.countryCode" />
           <strong> {currentBookmark.cityName} </strong>
           <span>{currentBookmark.country}</span>

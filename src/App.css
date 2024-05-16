@@ -281,6 +281,11 @@
   border-radius: 1rem;
   padding: 1rem;
   display: grid;
+  grid-template-columns: 90fr 1fr;
+}
+
+.bookmarkItem div {
+  display: grid;
   grid-template-columns: 20fr 40fr 40fr;
 }
 
@@ -307,6 +312,15 @@
   margin-bottom: 1rem;
 }
 
+.singleBookmark div {
+  margin-bottom: 1rem;
+  border: 1px solid var(--text-400);
+  border-radius: 1rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 20fr 40fr 40fr;
+}
+
 /* form */
 
 .form .formControl {
@@ -324,10 +338,6 @@
   padding: 0.5rem;
   border-radius: 0.5rem;
   width: 100%;
-}
-
-.emptyBox {
-  border: 1px solid var(--rose-500);
 }
 
 .buttons {

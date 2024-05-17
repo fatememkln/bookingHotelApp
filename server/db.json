@@ -1325,15 +1325,6 @@
   ],
   "bookmarks": [
     {
-      "cityName": "Baba Kot",
-      "country": "Pakistan",
-      "countryCode": "PK",
-      "latitude": "28.43528783183169",
-      "longitude": "67.78003711374224",
-      "host_location": "Baba Kot Pakistan",
-      "id": 8
-    },
-    {
       "cityName": "Sorkheh",
       "country": "Iran (Islamic Republic of)",
       "countryCode": "IR",
@@ -1359,6 +1350,24 @@
       "longitude": "54.40429687500001",
       "host_location": "YazdIran (Islamic Republic of)",
       "id": 11
+    },
+    {
+      "cityName": "Kortemark",
+      "country": "Belgium",
+      "countryCode": "BE",
+      "latitude": "51.01258691437301",
+      "longitude": "2.9951477050781254",
+      "host_location": "KortemarkBelgium",
+      "id": 12
+    },
+    {
+      "cityName": "Yeniseysk",
+      "country": "Russian Federation (the)",
+      "countryCode": "RU",
+      "latitude": "58.51665179936381",
+      "longitude": "89.296875",
+      "host_location": "YeniseyskRussian Federation (the)",
+      "id": 13
     }
   ]
 }

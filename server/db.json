@@ -1359,15 +1359,6 @@
       "longitude": "2.9951477050781254",
       "host_location": "KortemarkBelgium",
       "id": 12
-    },
-    {
-      "cityName": "Yeniseysk",
-      "country": "Russian Federation (the)",
-      "countryCode": "RU",
-      "latitude": "58.51665179936381",
-      "longitude": "89.296875",
-      "host_location": "YeniseyskRussian Federation (the)",
-      "id": 13
     }
   ]
 }

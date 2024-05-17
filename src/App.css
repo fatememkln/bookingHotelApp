@@ -6,6 +6,14 @@
   align-items: center;
   gap: 1rem;
 }
+
+.bookmark--btn {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-600);
+  color: #fff;
+}
+
 .headerSearch {
   display: flex;
   width: 100%;

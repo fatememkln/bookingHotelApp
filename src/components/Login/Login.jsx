@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function Login() {
   const [email, setEmail] = useState("user@gmail.com");
   const [password, setPassword] = useState("1234");
-  const { user, isAuthenticated, login } = useAuth();
+  const { isAuthenticated, login } = useAuth();
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
@@ -14,7 +14,7 @@ function Login() {
   };
 
   useEffect(() => {
-    if (isAuthenticated) navigate("/" , {replace: true});
+    if (isAuthenticated) navigate("/", { replace: true });
   }, [isAuthenticated, navigate]);
 
   return (
